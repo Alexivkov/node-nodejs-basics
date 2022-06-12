@@ -11,7 +11,8 @@
     "list": "node src/fs/list.js",
     "read": "node src/fs/read.js",
     "env": "npx cross-env RSS_first_name=Alexander RSS_last_name=Sivkov node src/cli/env.js",
-    "args": "node src/cli/args.js --first-name Alexander --last-name Sivkov"
+    "args": "node src/cli/args.js --first-name Alexander --last-name Sivkov",
+    "hash": "node src/hash/calcHash.js"
   },
   "repository": {
     "type": "git",
