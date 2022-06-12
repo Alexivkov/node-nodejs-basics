@@ -12,7 +12,10 @@
     "read": "node src/fs/read.js",
     "env": "npx cross-env RSS_first_name=Alexander RSS_last_name=Sivkov node src/cli/env.js",
     "args": "node src/cli/args.js --first-name Alexander --last-name Sivkov",
-    "hash": "node src/hash/calcHash.js"
+    "hash": "node src/hash/calcHash.js",
+    "readStream": "node src/streams/read.js", 
+    "writeStream": "node src/streams/write.js",
+    "transform": "node src/streams/transform.js"
   },
   "repository": {
     "type": "git",
