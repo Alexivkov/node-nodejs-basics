@@ -15,7 +15,13 @@
     "hash": "node src/hash/calcHash.js",
     "readStream": "node src/streams/read.js", 
     "writeStream": "node src/streams/write.js",
-    "transform": "node src/streams/transform.js"
+    "transform": "node src/streams/transform.js",
+    "compress": "node src/zip/compress.js",
+    "decompress": "node src/zip/decompress.js",
+    "wt": "node src/wt/main.js"
+
+
+
   },
   "repository": {
     "type": "git",
